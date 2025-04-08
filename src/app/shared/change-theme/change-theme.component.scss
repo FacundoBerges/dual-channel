@@ -1,0 +1,22 @@
+button {
+  background-color: var(--background-color);
+  border-radius: 85%;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: var(--text-primary);
+  cursor: pointer;
+  padding: 0.6rem;
+  z-index: 100;
+
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+
+  transition: background-color 0.3s, transform 0.3s;
+
+  &:hover,
+  &:focus,
+  &:active {
+    transform: scale(1.03);
+  }
+}

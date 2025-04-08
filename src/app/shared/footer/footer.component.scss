@@ -1,0 +1,13 @@
+footer {
+  align-items: center;
+  background-color: var(--color-from);
+  border-top: 1px solid var(--color-primary);
+  display: flex;
+  height: var(--footer-height);
+  justify-content: center;
+
+  p {
+    font-size: 1rem;
+    color: var(--color-to);
+  }
+}

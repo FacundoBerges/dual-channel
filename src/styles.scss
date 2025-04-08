@@ -1,1 +1,37 @@
-/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+
+:root {
+  --background-whatsapp: #25d366;
+  --color-white: #f8fafc;
+  --footer-height: 5rem;
+
+  --color-primary: #829dd1;
+  --color-secondary: #4c4e72;
+  --color-from: #4b56a2;
+  --color-to: #cfe9ef;
+
+  [data-theme="light"] {
+    --background-color: #cfe9ef;
+    --text-primary: #110909;
+  }
+}
+
+[data-theme="dark"] {
+  --background-color: #000336;
+  --text-primary: #f8fafc;
+}
+
+* {
+  transition-duration: 150ms;
+  transition-timing-function: ease-in-out;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background-color);
+  height: 100dvh;
+  width: 100dvw;
+}
